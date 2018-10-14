@@ -1,0 +1,50 @@
+ body{
+ 	background-color: #DFF7F0;
+ }
+
+ h2{
+
+ 	text-align: center;
+ }
+ #image{
+ 	width: 50%; display: block; margin: auto;
+ 	position: relative;
+ 	top: 0;
+ }
+ .paragraph{
+ 	text-indent: 50px; color: green;
+ }
+
+ #topright{
+ 	position: fixed;
+ 	top: 0;
+ 	right: 20;
+ }
+ .container{
+ 	position: relative;
+ 	border: 3px solid blue;
+ }
+
+#link1{
+	float: left;
+	border: 3px solid red;	
+	position: relative;
+	left: 20;
+}
+
+#link2{
+	border: 3px solid red;
+	float: right;
+	position: relative;
+	right: 20;
+}
+
+#canvas{
+	position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+
