@@ -38,7 +38,7 @@ function setup(){
 	cnv = createCanvas(window.innerWidth,window.innerHeight);
 	cnv.parent('canvas')
 	for (var i = 0; i < 100; i++) {
-		var x = new Ball(Math.random() * window.innerWidth, Math.random() * window.innerHeight,(Math.random() * 6 - 3),(Math.random() * 6 -3), Math.random() * 30 + 20 ,Math.floor(Math.random() * 255), Math.floor(Math.random() * 255), Math.floor(Math.random() * 255))
+		var x = new Ball(Math.random() * (window.innerWidth-100)+50, Math.random() * (window.innerHeight-100) +50,(Math.random() * 6 - 3),(Math.random() * 6 -3), Math.random() * 30 + 20 ,Math.floor(Math.random() * 255), Math.floor(Math.random() * 255), Math.floor(Math.random() * 255))
 		balls.push(x);
 	}
 }
